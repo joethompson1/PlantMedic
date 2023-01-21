@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bush_bg1">
+
+
+
+
+<ImageView
+android:id="@+id/imageViewlogo2"
+android:layout_width="174dp"
+android:layout_height="149dp"
+android:layout_gravity="center"
+android:adjustViewBounds="true"
+android:scaleType="centerInside"
+android:layout_marginTop="50dp"
+android:src="@drawable/whatplant"
+android:contentDescription="TODO" />
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="249dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:text="Use our implemented Machine Learning service to find the your plant species so we can provide the best care advice"
+        android:textAlignment="center" />
+
+
+    <Button
+        android:id="@+id/search_byphoto"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="@android:color/holo_red_light"
+
+        android:text="SEARCH BY PHOTO" />
+
+
+
+
+    <Button
+        android:id="@+id/backbutton"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="@android:color/white"
+        android:text="goback" />
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/animation_view"
+        android:layout_width="400dp"
+        android:layout_height="300dp"
+        android:layout_gravity="bottom"
+
+        app:lottie_autoPlay="true"
+        app:lottie_loop="false"
+        app:lottie_rawRes="@raw/growing"
+        tools:layout_editor_absoluteX="406dp"
+        tools:layout_editor_absoluteY="666dp" />
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>
