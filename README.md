@@ -85,9 +85,9 @@ If you don't have them installed then copy and paste the necessary lines below i
 
 
 #### Clone the repo
-* Clone the PassTheTime repository
+* Clone the PlantMedic repository
    ```sh
-   git clone https://github.com/joethompson1/PassTheTime.git
+   git clone https://github.com/joethompson1/PlantMedic.git
    ```
 
 #### Download Android Studio
